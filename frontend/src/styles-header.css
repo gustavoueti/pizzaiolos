@@ -1,0 +1,45 @@
+header {
+    background: #DDDDDD;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+}
+
+.logo{
+    display: block;
+    margin-left: 10px;
+    width: 13%;
+}
+
+.title{
+    text-align: end;
+    color: #C78C19;
+}
+
+
+nav {
+    position: absolute;
+    top: 110px;
+    left: 1100px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}

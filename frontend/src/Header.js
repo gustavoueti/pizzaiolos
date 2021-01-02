@@ -1,16 +1,18 @@
 import React from 'react';
 import logo from './images/pizza-logo.png';
 
+import './styles-header.css'
+
 export default function Header(props){
     return(
         <header>
             
             <div class="box">
-                <h1>
+                <h1 class = "title">
                     {props.title}
                     
                     <a href="index.html">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" class="logo"/>
                     </a>
                 </h1>
                 <nav>

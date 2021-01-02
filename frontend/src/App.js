@@ -1,9 +1,14 @@
 import React from 'react';
 
 import Header from './Header';
+import Home from './pages/Home';
 function App() {
   return (
-    <Header title="Pizzaria Pizzaiolos!" />
+    <div>
+      <Header title="Pizzaria Pizzaiolos!" />
+      <Home />
+    </div>
+    
   );
 }
 
