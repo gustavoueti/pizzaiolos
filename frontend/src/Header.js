@@ -8,6 +8,7 @@ export default function Header(props){
             <div class="box">
                 <h1>
                     {props.title}
+                    
                     <a href="index.html">
                     <img src={logo} alt="logo" />
                     </a>
